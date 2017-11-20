@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/emgordon154/quack-server/issues"
   },
-  "homepage": "https://github.com/emgordon154/quack-server#readme"
+  "homepage": "https://github.com/emgordon154/quack-server#readme",
+  "dependencies": {
+    "ipod": "^0.2.4"
+  }
 }
