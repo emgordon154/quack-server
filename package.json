@@ -4,6 +4,7 @@
   "description": "An Express server for a ducking good time!",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,12 @@
   },
   "homepage": "https://github.com/emgordon154/quack-server#readme",
   "dependencies": {
-    "ipod": "^0.2.4"
+    "ipod": "^0.2.4",
+    "player": "^0.6.1",
+    "speaker": "^0.4.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.0",
+    "nodemon": "^1.12.1"
   }
 }
